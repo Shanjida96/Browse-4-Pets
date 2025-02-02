@@ -26,10 +26,11 @@
     </script>
     <title>Pet</title>
 </head>
-<body class=" px-2 lg:px-36 sora">
+<body class=" sora w-full">
     <header>
       <!-- nav -->
               <nav class="bg-[#FFF9F4] flex items-center justify-between text-center py-4 md:py-8  lg:py-8 max-w-full  border-b-red-800">
+                
         
         <div>
         <a class="btn text-xl">
@@ -98,7 +99,7 @@
           </div>
          </section>
     </header>
-    <main class="mx-auto md:container">
+    <main class="px-2 lg:px-36 w-full">
       <!-- Card section -->
        <section class=" place-content-cente my-4 md:my-8 lg:my-36 font-bold text-3xl">
         <h1 class="mb-12">Browse by Categories</h1>
@@ -329,20 +330,21 @@
           </div>
         </section>
         <!-- Low Price -->
-         <section>
-          <div class="flex flex-col lg:flex-row gap-4">
-            <div class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] w-[100%] md:w-[100%] lg:w-[780px] h-[480px] flex justify-between">
-              <div class="m-auto">
+         <section class="my-16 md:my-32 lg:my-64">
+          <h1 class="font-bold text-3xl mb-3 md:mb-9 lg:mb-12">Everyday Low Price</h1>
+          <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 ">
+            <div class="h-[480px] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] w-full md:w-full rounded-md lg:max-w-[780px] flex justify-between space-y-6 ">
+              <div class=" mx-auto text-center">
                 <h4 class="text-xl">Under Price</h4>
                 <p class="text-3xl ADLaM_Display font-semibold">Pet Grooming Mitt</p>
                 <p class="ADLaM_Display text-white text-[24px]">(Easy Hair Removal)</p>
                 <p class="text-[56px] font-bold">$7.99</p>
               </div>
               <div>
-                <img class=":w-[380px] h-[480px]" src="/c1-assets/cute-dog-mid.png" alt="">
+                <img class="max-w-[280px] lg:max-w-[380px] " src="/c1-assets/cute-dog-mid.png" alt="">
               </div>
             </div>
-            <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] w-[512px] flex justify-between ">
+            <div class="bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] max-w-[512px] flex justify-evenly rounded-md">
               <div class="mx-auto w-[100%] md:w-[100%] mt-[55px] lg:w-1/2">
                 <h2 class="text-2xl font-semibold pb-2">T-Shirt for Dogs</h2>
                 <p class="text-[#FFDC26] text-6xl ADLaM_Display">$7.99</p>
@@ -352,8 +354,46 @@
               </div>
             </div>
           </div>
-         </section>
+         </section> 
+         <!-- news -->
+         <section class="grid lg:grid-cols-2 bg-[#FFF9F4]">
+          <div>
+            <img src="/c1-assets/cute-pet-mid.png" alt="">
+          </div>
+          <div class="mx-auto">
+            <h1 class="font-bold text-3xl mb-3 md:mb-9 lg:mb-12">Everyday Low Price</h1>
+            <p class="mb-9 text-2xl">Exclusive training tips, ticks, product deals and more.</p>
+            <div class="">
+              <input class="w-[470px] h-[70px] pl-2" type="email" placeholder="Enter email" name="" id="">
+              <button class="btn bg-[#FFDC26] rounded-md  w-40 text-center text-[20px] mt-[30px]">Subscribe</button>
+            </div>
+          </div>
+        </section>
     </main>
+        <!-- footer -->
+        <!-- <footer class="footer p-10 bg-neutral text-neutral-content">
+           
+          <nav>
+            <header class="footer-title">Services</header> 
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav> 
+          <nav>
+            <header class="footer-title">Company</header> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </nav> 
+          <nav>
+            <header class="footer-title">Legal</header> 
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+        </footer> -->
 </body>
 </html>
 
